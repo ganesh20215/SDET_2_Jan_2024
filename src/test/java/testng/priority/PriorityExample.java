@@ -6,17 +6,17 @@ public class PriorityExample {
 
     @Test(priority = 1)
     public void testCaseA(){
-        System.out.println("test case A");
+        System.out.println("test case of A");
     }
 
     @Test
     public void testCaseX(){
-        System.out.println("test case X");
+        System.out.println("test case of X");
     }
 
     @Test(priority = 'A')
     public void testCaseM(){
-        System.out.println("test case M");
+        System.out.println("test case of M");
     }
 
     @Test(priority = 4)
