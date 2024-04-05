@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="courseName" value="Selenium"/>
+    <parameter name="cityName" value="Mumbai"/>
+    <listeners>
+        <listener class-name="testng.failtestcases.AutomaticallyRunTestScript"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="2" name="E:/repo1/clone/MavenProject_2_Jan_24">
+        <classes>
+            <class name="testng.failtestcases.FailTestCaseExample"/>
+        </classes>
+    </test>
+</suite>
