@@ -12,7 +12,7 @@ public class PriorityExample {
     @Test
     public void testCaseX(){
         System.out.println("test case of X");
-		System.out.println("test case of XYZ");
+		System.out.println("test case of XY");
     }
 
     @Test(priority = 'A')
