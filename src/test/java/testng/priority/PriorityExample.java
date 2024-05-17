@@ -16,6 +16,7 @@ public class PriorityExample {
 	System.out.println("test case of YYY");
 	System.out.println("test case of ZZZ");
 	System.out.println("test case of aaa");
+	System.out.println("test case of bbb");
     }
 
     @Test(priority = 'A')
