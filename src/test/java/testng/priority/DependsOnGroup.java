@@ -10,6 +10,7 @@ public class DependsOnGroup {
     public void verifyLogin() {
         Assert.assertTrue(false);
         System.out.println("Verify Login");
+         System.out.println("Verify Test");
     }
 
     @Test(dependsOnGroups = {"smoke"})
